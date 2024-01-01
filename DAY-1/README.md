@@ -12,11 +12,9 @@ This project was created as a part of the Daily UI Challenge, focusing on design
 
 The registration form is designed to provide a clean and user-friendly experience for users signing up for a service or application.
 
-### Features
+## Demo
 
-- Responsive design for various screen sizes.
-- Input validation for a minimum password length.
-- Integration with external authentication providers (Google, Apple).
+Visit the [Demo Site](https://daily-ui-challenge-day-1.vercel.app) to see the registration form in action.
 
 ## Getting Started
 
