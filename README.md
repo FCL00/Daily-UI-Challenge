@@ -16,7 +16,7 @@ This repository contains various user interface designs developed as part of the
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/FCL00/Daily-UI-Challenge.git
    cd project-name
    ```
 2. **Install dependencies:**

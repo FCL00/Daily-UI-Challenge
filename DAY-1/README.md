@@ -21,7 +21,7 @@ Visit the [Demo Site](https://daily-ui-challenge-day-1.vercel.app) to see the re
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/registration-form.git
+   git clone https://github.com/FCL00/Daily-UI-Challenge.git
    cd registration-form
 
    ```
