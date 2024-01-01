@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;300;400;500;700&family=Signika:wght@300;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#121212] font-[Poppins];
+}
+
+.section-container {
+  @apply md:h-screen flex justify-center items-center px-5;
+}
+
+.grid-container {
+  @apply max-w-7xl 
+  flex flex-col 
+  bg-no-repeat
+  mt-16
+  rounded-md 
+  bg-[#181818] 
+  space-y-5
+  shadow-lg
+  md:flex-row 
+  md:mt-0
+  md:gap-2;
+}
+
+.left {
+  @apply hidden md:block md:w-1/2 rounded-l-lg bg-no-repeat bg-cover p-10;
+}
+
+.left .left-content {
+  @apply h-full p-5 flex flex-col justify-evenly;
+}
+
+.left h1 {
+  @apply text-white font-bold text-5xl;
+}
+.right h1 {
+  @apply text-white font-bold text-4xl;
+}
+
+.left h3 {
+  @apply text-white text-2xl font-medium;
+}
+
+/* right side */
+.right {
+  @apply w-full md:w-1/2 p-10;
+}
+
+.right p {
+  @apply text-gray-500;
+}
+
+.right button {
+  @apply w-full 
+  md:w-1/2 p-2 
+  text-lg 
+  bg-[#121212] 
+  rounded-md 
+  text-gray-400 
+  transition-colors 
+  duration-300 
+  hover:bg-[#0D0D0D] 
+  focus:bg-[#0D0D0D] mt-1;
+}
+
+.button-container {
+  @apply flex flex-col md:flex-row  gap-x-1;
+}
+
+.form-container {
+  @apply flex flex-col mt-4;
+}
+
+.form-container label {
+  @apply text-white;
+}
+
+.form-container .input-text {
+  @apply text-gray-400 
+  mt-2 
+  pl-2 
+  p-3 
+  rounded-lg 
+  bg-[#121212] 
+  border-[#121212] 
+  outline-none 
+  focus:outline-violet-700;
+}
+
+.form-container .checkbox-label {
+  @apply text-gray-400 pl-2;
+}
+
+.form-container .terms {
+  @apply underline;
+}
+
+.form-container .btnSubmit {
+  @apply w-full 
+  text-black 
+  bg-violet-500 
+  hover:bg-violet-900 
+  hover:text-white;
+}

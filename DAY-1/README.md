@@ -1,0 +1,57 @@
+# Daily UI Challenge - Registration Form
+
+This project was created as a part of the Daily UI Challenge, focusing on designing and implementing a registration form. The technologies used include React, Tailwind CSS, and Vite.
+
+## Technologies Used
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
+- [Vite](https://vitejs.dev/): A fast development server and a build tool for modern web development.
+
+## Project Overview
+
+The registration form is designed to provide a clean and user-friendly experience for users signing up for a service or application.
+
+### Features
+
+- Responsive design for various screen sizes.
+- Input validation for a minimum password length.
+- Integration with external authentication providers (Google, Apple).
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/registration-form.git
+   cd registration-form
+
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   npm run dev
+
+   ```
+
+   Open http://localhost:3000 to view the application in your browser.
+
+## Usage
+
+Customize the registration form according to your project requirements. Feel free to extend the functionality or modify the styles based on your design preferences.
+
+## Contributing
+
+If you have suggestions, enhancements, or bug fixes, feel free to open an issue or create a pull request. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
