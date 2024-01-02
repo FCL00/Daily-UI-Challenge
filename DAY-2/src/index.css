@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;300;400;500;700&family=Signika:wght@300;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-[Poppins];
+}
+
+header {
+  @apply bg-violet-500;
+}
+
+input[type="radio"]:checked + label {
+  @apply text-violet-500 border border-violet-600;
+}
