@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply mt-32 md:h-screen md:mt-0 bg-[#181818] flex items-center justify-center;
+}
+
+.wrapper {
+  @apply bg-gray-900 text-white border border-emerald-500 p-5 rounded-md space-y-3;
+}
+
+.form-control {
+  @apply space-y-2;
+}
+
+.screen {
+  @apply p-5 bg-gray-800 rounded-md text-emerald-500 text-end text-xl border border-gray-800 outline-none;
+}
+
+.buttonBox {
+  @apply grid grid-cols-4 grid-rows-4 bg-gray-800 rounded-md p-5 gap-1;
+}
+
+.button {
+  @apply p-5 text-center text-emerald-500 bg-gray-700 rounded-md hover:bg-emerald-400 hover:text-black;
+}
+
+.operator {
+  @apply p-5 text-center text-white bg-emerald-700 rounded-md hover:bg-emerald-400 hover:text-black;
+}
