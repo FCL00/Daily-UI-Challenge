@@ -21,7 +21,7 @@ Visit the [Demo Site](https://daily-ui-challenge-day-5.vercel.app) to see the 40
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/FCL00/DAILY-UI-CHALLENGE-DAY.git
+   git clone https://github.com/FCL00/DAILY-UI-CHALLENGE-DAY-6.git
    cd registration-form
 
    ```
