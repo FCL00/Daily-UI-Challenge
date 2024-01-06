@@ -10,7 +10,7 @@ This project was created as a part of the Daily UI Challenge, focusing on design
 
 ## Project Overview
 
-The 404 Page is designed to provide a seamless and user-friendly experience.
+The 404 Page is designed to provide a seamless and user-friendly experience. 
 
 ## Demo
 
