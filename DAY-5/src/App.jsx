@@ -1,6 +1,18 @@
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEllipsisVertical,
+  faChevronLeft,
+} from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 function App() {
+  const [follow, setFollow] = useState(false);
+
+  const handleFollowToggle = () => {
+    setFollow((prevFollow) => !prevFollow);
+  };
+
   return (
     <>
      <div className="h-screen flex justify-center items-center bg-[#181818]">
