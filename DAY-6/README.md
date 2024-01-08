@@ -10,18 +10,18 @@ This project was created as a part of the Daily UI Challenge, focusing on design
 
 ## Project Overview
 
-The 404 Page is designed to provide a seamless and user-friendly experience.
+The 404 Page is designed to provide a seamless and user-friendly experience. 
 
 ## Demo
 
-Visit the [Demo Site](https://daily-ui-challenge-day-5.vercel.app) to see the 404 Page in action.
+Visit the [Demo Site](https://daily-ui-challenge-day-6.vercel.app) to see the 404 Page in action.
 
 ## Getting Started
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/FCL00/DAILY-UI-CHALLENGE-DAY-6.git
+   git clone https://github.com/FCL00/DAILY-UI-CHALLENGE-DAY.git
    cd registration-form
 
    ```
