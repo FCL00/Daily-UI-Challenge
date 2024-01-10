@@ -1,5 +1,4 @@
-# Project Name
-
+# React Admin Dashboard
 A simple React project with Recharts and Tailwind CSS.
 
 ## Table of Contents
