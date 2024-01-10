@@ -1,0 +1,12 @@
+.menu {
+  .item {
+    @apply flex flex-col gap-2 mb-4;
+  }
+  .title {
+    @apply font-semibold text-xl uppercase text-white;
+  }
+
+  .listItem {
+    @apply flex items-center gap-3 p-3 rounded-sm;
+  }
+}

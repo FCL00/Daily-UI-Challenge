@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;300;400;500;700&family=Signika:wght@300;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  @apply font-[Poppins] bg-[#181818] text-white;
+}
+
+.main-container {
+  @apply flex min-h-screen p-5;
+}
+
+.menuContainer {
+  @apply w-[250px] 
+  py-[5px] 
+  px-[20px] 
+  border-r-2 
+  border-r-white;
+}
+
+.contentContainer {
+  @apply w-full py-1 px-5;
+}

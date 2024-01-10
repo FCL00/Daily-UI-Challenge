@@ -1,0 +1,28 @@
+.topBox {
+  .header-title {
+    @apply text-white font-bold text-2xl;
+  }
+  .list {
+    @apply mt-10;
+  }
+
+  .listItem {
+    @apply flex justify-between mb-4;
+  }
+
+  .user {
+    @apply flex gap-5;
+  }
+
+  .avatars {
+    @apply w-[48px] h-[48px] rounded-full object-cover;
+  }
+
+  .userTexts {
+    @apply flex flex-col justify-center;
+  }
+
+  .email {
+    @apply text-xs;
+  }
+}
